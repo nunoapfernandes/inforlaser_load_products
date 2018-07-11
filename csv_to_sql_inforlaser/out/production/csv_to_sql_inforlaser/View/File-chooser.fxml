@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="110.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.File_chooser_controller">
+   <children>
+      <Button layoutX="154.0" layoutY="77.0" mnemonicParsing="false" onAction="#generate_sql" text="Generate SQL" />
+      <TextField fx:id="file_path_text" layoutX="14.0" layoutY="39.0" prefHeight="26.0" prefWidth="330.0" />
+      <Button layoutX="351.0" layoutY="39.0" mnemonicParsing="false" onAction="#select_file" text="Select" />
+      <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="File path" />
+   </children>
+</AnchorPane>
